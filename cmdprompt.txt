@@ -1,0 +1,154 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\Adwait>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of C:\Users\Adwait
+
+02/21/2017  08:27 AM    <DIR>          .
+02/21/2017  08:27 AM    <DIR>          ..
+01/28/2017  09:02 AM    <DIR>          Contacts
+02/19/2017  02:20 PM    <DIR>          Desktop
+02/15/2017  07:40 PM    <DIR>          Documents
+02/21/2017  11:07 AM    <DIR>          Downloads
+01/28/2017  09:02 AM    <DIR>          Favorites
+01/28/2017  09:02 AM    <DIR>          Links
+01/28/2017  09:02 AM    <DIR>          Music
+01/28/2017  08:33 AM    <DIR>          OneDrive
+01/28/2017  09:02 AM    <DIR>          Pictures
+12/01/2016  09:35 PM    <DIR>          Roaming
+01/28/2017  09:02 AM    <DIR>          Saved Games
+01/28/2017  09:02 AM    <DIR>          Searches
+02/21/2017  07:33 AM    <DIR>          Videos
+               0 File(s)              0 bytes
+              15 Dir(s)  195,888,553,984 bytes free
+
+C:\Users\Adwait>cd c:/
+
+c:\>list
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\
+
+12/01/2016  09:54 PM    <DIR>          eSupport
+02/21/2017  08:54 AM    <DIR>          MAMP
+02/21/2017  11:07 AM    <DIR>          Program Files
+02/21/2017  08:52 AM    <DIR>          Program Files (x86)
+01/28/2017  08:30 AM    <DIR>          Users
+02/21/2017  08:28 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+               6 Dir(s)  195,888,406,528 bytes free
+
+c:\>cd c:\users\adwait
+
+c:\Users\Adwait>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\Users\Adwait
+
+02/21/2017  08:27 AM    <DIR>          .
+02/21/2017  08:27 AM    <DIR>          ..
+01/28/2017  09:02 AM    <DIR>          Contacts
+02/19/2017  02:20 PM    <DIR>          Desktop
+02/15/2017  07:40 PM    <DIR>          Documents
+02/21/2017  11:07 AM    <DIR>          Downloads
+01/28/2017  09:02 AM    <DIR>          Favorites
+01/28/2017  09:02 AM    <DIR>          Links
+01/28/2017  09:02 AM    <DIR>          Music
+01/28/2017  08:33 AM    <DIR>          OneDrive
+01/28/2017  09:02 AM    <DIR>          Pictures
+12/01/2016  09:35 PM    <DIR>          Roaming
+01/28/2017  09:02 AM    <DIR>          Saved Games
+01/28/2017  09:02 AM    <DIR>          Searches
+02/21/2017  07:33 AM    <DIR>          Videos
+               0 File(s)              0 bytes
+              15 Dir(s)  195,888,418,816 bytes free
+
+c:\Users\Adwait>cd c:\users\Adwait\Desktop
+
+c:\Users\Adwait\Desktop>md test
+
+c:\Users\Adwait\Desktop>cd test
+
+c:\Users\Adwait\Desktop\test>copy index.html
+The system cannot find the file specified.
+
+c:\Users\Adwait\Desktop\test>copy NUL index.html
+        1 file(s) copied.
+
+c:\Users\Adwait\Desktop\test>copy NUL styles.css
+        1 file(s) copied.
+
+c:\Users\Adwait\Desktop\test>copy NUL commands.txt
+        1 file(s) copied.
+
+c:\Users\Adwait\Desktop\test>copy index.html index_2.html
+        1 file(s) copied.
+
+c:\Users\Adwait\Desktop\test>del styles.css
+
+c:\Users\Adwait\Desktop\test>cd c:\users\Adwait\Desktop
+
+c:\Users\Adwait\Desktop>md destination
+
+c:\Users\Adwait\Desktop>cd destination
+
+c:\Users\Adwait\Desktop\destination>move c:\users\Adwait\desktop\test\index_2.html c:\users\desktop\destination
+The system cannot find the path specified.
+        0 file(s) moved.
+
+c:\Users\Adwait\Desktop\destination>move c:\users\Adwait\desktop\test\index_2.html c:\users\adwait\desktop\destination
+        1 file(s) moved.
+
+c:\Users\Adwait\Desktop\destination>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\Users\Adwait\Desktop\destination
+
+02/21/2017  02:16 PM    <DIR>          .
+02/21/2017  02:16 PM    <DIR>          ..
+02/21/2017  02:14 PM                 0 index_2.html
+               1 File(s)              0 bytes
+               2 Dir(s)  195,881,799,680 bytes free
+
+c:\Users\Adwait\Desktop\destination>cd test
+The system cannot find the path specified.
+
+c:\Users\Adwait\Desktop\destination>cd help
+The system cannot find the path specified.
+
+c:\Users\Adwait\Desktop\destination>cd c:\users\adwait\desktop\test
+
+c:\Users\Adwait\Desktop\test>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\Users\Adwait\Desktop\test
+
+02/21/2017  02:16 PM    <DIR>          .
+02/21/2017  02:16 PM    <DIR>          ..
+02/21/2017  02:14 PM                 0 commands.txt
+02/21/2017  02:14 PM                 0 index.html
+               2 File(s)              0 bytes
+               2 Dir(s)  195,881,795,584 bytes free
+
+c:\Users\Adwait\Desktop\test>cd c:\userts\adwait\desktop\destination
+The system cannot find the path specified.
+
+c:\Users\Adwait\Desktop\test>cd c:\users\adwait\desktop\destination
+
+c:\Users\Adwait\Desktop\destination>cd c:\users\Adwait\desktop
+
+c:\Users\Adwait\Desktop>rd /s destination
+destination, Are you sure (Y/N)? y
+
+c:\Users\Adwait\Desktop>

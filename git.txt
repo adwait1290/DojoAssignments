@@ -1,0 +1,465 @@
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ cd
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~
+$ cd c:/Users/Adwait/Desktop
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop
+$ mkdir test
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop
+$ cd test
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test
+$ touch index.html
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test
+$ touch styles.css
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test
+$ touch aboutMe.txt
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test
+$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test
+$ git init
+Initialized empty Git repository in C:/Users/Adwait/Desktop/test/.git/
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git add .
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git commit -m "first edition"
+[master (root-commit) f6f6cc3] first edition
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 aboutMe.txt
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git commit -m "changed aboutMe.txt"
+On branch master
+Changes not staged for commit:
+        modified:   aboutMe.txt
+
+no changes added to commit
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ ^C^C^C^Cgit comfirst edition"tMe.txt"
+
+bash: it: command not found
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ it commit -m "first editi
+>
+>
+>
+>
+> '
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> git status
+>
+> ^C
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   aboutMe.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git commit -a
+
+/usr/bin/bash: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+/usr/bin/bash: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+/usr/bin/bash: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+[master 3bb2e1c] changed aboutMe.txt
+ 1 file changed, 1 insertion(+)
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ cd
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~
+$ fs
+bash: fs: command not found
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~
+$ cd
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~
+$ cd c:/Users/Adwait/Desktop/test
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git log
+commit 3bb2e1c355911d97b7d4d024729e238505de761b
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:53:51 2017 -0800
+
+    changed aboutMe.txt
+
+commit f6f6cc3166ab07c4af850ea7b09607f3511ba481
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:50:53 2017 -0800
+
+    first edition
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git commit -m "Added a movie!"
+On branch master
+nothing to commit, working tree clean
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git add .
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git commit -m "added a movie!"
+On branch master
+nothing to commit, working tree clean
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git log
+commit 3bb2e1c355911d97b7d4d024729e238505de761b
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:53:51 2017 -0800
+
+    changed aboutMe.txt
+
+commit f6f6cc3166ab07c4af850ea7b09607f3511ba481
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:50:53 2017 -0800
+
+    first edition
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git add .
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git commit -m "got it done"
+[master c787a5e] got it done
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git log
+commit c787a5e690e38f4e4aa981128823cf2719c06ae0
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:57:43 2017 -0800
+
+    got it done
+
+commit 3bb2e1c355911d97b7d4d024729e238505de761b
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:53:51 2017 -0800
+
+    changed aboutMe.txt
+
+commit f6f6cc3166ab07c4af850ea7b09607f3511ba481
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:50:53 2017 -0800
+
+    first edition
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git revert -m 3bb2e1c355
+error: switch `m' expects a numerical value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git revert --mainline 3bb2e1c
+error: option `mainline' expects a numerical value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git revert -s 3bb2e1c
+error: could not revert 3bb2e1c... changed aboutMe.txt
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git log
+commit c787a5e690e38f4e4aa981128823cf2719c06ae0
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:57:43 2017 -0800
+
+    got it done
+
+commit 3bb2e1c355911d97b7d4d024729e238505de761b
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:53:51 2017 -0800
+
+    changed aboutMe.txt
+
+commit f6f6cc3166ab07c4af850ea7b09607f3511ba481
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:50:53 2017 -0800
+
+    first edition
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git revert
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git revert -e "back 1"
+fatal: bad revision 'back 1'
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git revert --continue
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+U       aboutMe.txt
+fatal: Exiting because of an unresolved conflict.
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git log
+commit c787a5e690e38f4e4aa981128823cf2719c06ae0
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:57:43 2017 -0800
+
+    got it done
+
+commit 3bb2e1c355911d97b7d4d024729e238505de761b
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:53:51 2017 -0800
+
+    changed aboutMe.txt
+
+commit f6f6cc3166ab07c4af850ea7b09607f3511ba481
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:50:53 2017 -0800
+
+    first edition
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git revert -m c787a5e69
+error: switch `m' expects a numerical value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git revert -m 3bb2e1c
+error: switch `m' expects a numerical value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git revert -m 3bb2e1c --continue
+error: switch `m' expects a numerical value
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git revert aboutMe.txt-2
+fatal: bad revision 'aboutMe.txt-2'
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git revert aboutMe.txt~2
+fatal: bad revision 'aboutMe.txt~2'
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git revert aboutMe~2
+fatal: bad revision 'aboutMe~2'
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git log
+commit c787a5e690e38f4e4aa981128823cf2719c06ae0
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:57:43 2017 -0800
+
+    got it done
+
+commit 3bb2e1c355911d97b7d4d024729e238505de761b
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:53:51 2017 -0800
+
+    changed aboutMe.txt
+
+commit f6f6cc3166ab07c4af850ea7b09607f3511ba481
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:50:53 2017 -0800
+
+    first edition
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git checkout 3bb2e1c355
+aboutMe.txt: needs merge
+error: you need to resolve your current index first
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git add .
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master|REVERTING)
+$ git commit
+
+/usr/bin/bash: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+[master d3249b1] Revert "changed aboutMe.txt"
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ git log
+commit d3249b15c150837253a00ab654efab330c10224b
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 17:04:03 2017 -0800
+
+    Revert "changed aboutMe.txt"
+
+    This reverts commit 3bb2e1c355911d97b7d4d024729e238505de761b.
+
+    Signed-off-by: Adwait Athale <adwaitathale@gmail.com>
+
+commit c787a5e690e38f4e4aa981128823cf2719c06ae0
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:57:43 2017 -0800
+
+    got it done
+
+commit 3bb2e1c355911d97b7d4d024729e238505de761b
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:53:51 2017 -0800
+
+    changed aboutMe.txt
+
+commit f6f6cc3166ab07c4af850ea7b09607f3511ba481
+Author: Adwait Athale <adwaitathale@gmail.com>
+Date:   Tue Feb 21 16:50:53 2017 -0800
+
+    first edition
+
+Adwait@DESKTOP-OE5JV48 MINGW64 ~/Desktop/test (master)
+$ a

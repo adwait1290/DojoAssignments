@@ -1,0 +1,403 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\Adwait>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of C:\Users\Adwait
+
+02/21/2017  08:27 AM    <DIR>          .
+02/21/2017  08:27 AM    <DIR>          ..
+01/28/2017  09:02 AM    <DIR>          Contacts
+02/19/2017  02:20 PM    <DIR>          Desktop
+02/15/2017  07:40 PM    <DIR>          Documents
+02/21/2017  11:07 AM    <DIR>          Downloads
+01/28/2017  09:02 AM    <DIR>          Favorites
+01/28/2017  09:02 AM    <DIR>          Links
+01/28/2017  09:02 AM    <DIR>          Music
+01/28/2017  08:33 AM    <DIR>          OneDrive
+01/28/2017  09:02 AM    <DIR>          Pictures
+12/01/2016  09:35 PM    <DIR>          Roaming
+01/28/2017  09:02 AM    <DIR>          Saved Games
+01/28/2017  09:02 AM    <DIR>          Searches
+02/21/2017  07:33 AM    <DIR>          Videos
+               0 File(s)              0 bytes
+              15 Dir(s)  195,888,553,984 bytes free
+
+C:\Users\Adwait>cd c:/
+
+c:\>list
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\
+
+12/01/2016  09:54 PM    <DIR>          eSupport
+02/21/2017  08:54 AM    <DIR>          MAMP
+02/21/2017  11:07 AM    <DIR>          Program Files
+02/21/2017  08:52 AM    <DIR>          Program Files (x86)
+01/28/2017  08:30 AM    <DIR>          Users
+02/21/2017  08:28 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+               6 Dir(s)  195,888,406,528 bytes free
+
+c:\>cd c:\users\adwait
+
+c:\Users\Adwait>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\Users\Adwait
+
+02/21/2017  08:27 AM    <DIR>          .
+02/21/2017  08:27 AM    <DIR>          ..
+01/28/2017  09:02 AM    <DIR>          Contacts
+02/19/2017  02:20 PM    <DIR>          Desktop
+02/15/2017  07:40 PM    <DIR>          Documents
+02/21/2017  11:07 AM    <DIR>          Downloads
+01/28/2017  09:02 AM    <DIR>          Favorites
+01/28/2017  09:02 AM    <DIR>          Links
+01/28/2017  09:02 AM    <DIR>          Music
+01/28/2017  08:33 AM    <DIR>          OneDrive
+01/28/2017  09:02 AM    <DIR>          Pictures
+12/01/2016  09:35 PM    <DIR>          Roaming
+01/28/2017  09:02 AM    <DIR>          Saved Games
+01/28/2017  09:02 AM    <DIR>          Searches
+02/21/2017  07:33 AM    <DIR>          Videos
+               0 File(s)              0 bytes
+              15 Dir(s)  195,888,418,816 bytes free
+
+c:\Users\Adwait>cd c:\users\Adwait\Desktop
+
+c:\Users\Adwait\Desktop>md test
+
+c:\Users\Adwait\Desktop>cd test
+
+c:\Users\Adwait\Desktop\test>copy index.html
+The system cannot find the file specified.
+
+c:\Users\Adwait\Desktop\test>copy NUL index.html
+        1 file(s) copied.
+
+c:\Users\Adwait\Desktop\test>copy NUL styles.css
+        1 file(s) copied.
+
+c:\Users\Adwait\Desktop\test>copy NUL commands.txt
+        1 file(s) copied.
+
+c:\Users\Adwait\Desktop\test>copy index.html index_2.html
+        1 file(s) copied.
+
+c:\Users\Adwait\Desktop\test>del styles.css
+
+c:\Users\Adwait\Desktop\test>cd c:\users\Adwait\Desktop
+
+c:\Users\Adwait\Desktop>md destination
+
+c:\Users\Adwait\Desktop>cd destination
+
+c:\Users\Adwait\Desktop\destination>move c:\users\Adwait\desktop\test\index_2.html c:\users\desktop\destination
+The system cannot find the path specified.
+        0 file(s) moved.
+
+c:\Users\Adwait\Desktop\destination>move c:\users\Adwait\desktop\test\index_2.html c:\users\adwait\desktop\destination
+        1 file(s) moved.
+
+c:\Users\Adwait\Desktop\destination>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\Users\Adwait\Desktop\destination
+
+02/21/2017  02:16 PM    <DIR>          .
+02/21/2017  02:16 PM    <DIR>          ..
+02/21/2017  02:14 PM                 0 index_2.html
+               1 File(s)              0 bytes
+               2 Dir(s)  195,881,799,680 bytes free
+
+c:\Users\Adwait\Desktop\destination>cd test
+The system cannot find the path specified.
+
+c:\Users\Adwait\Desktop\destination>cd help
+The system cannot find the path specified.
+
+c:\Users\Adwait\Desktop\destination>cd c:\users\adwait\desktop\test
+
+c:\Users\Adwait\Desktop\test>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\Users\Adwait\Desktop\test
+
+02/21/2017  02:16 PM    <DIR>          .
+02/21/2017  02:16 PM    <DIR>          ..
+02/21/2017  02:14 PM                 0 commands.txt
+02/21/2017  02:14 PM                 0 index.html
+               2 File(s)              0 bytes
+               2 Dir(s)  195,881,795,584 bytes free
+
+c:\Users\Adwait\Desktop\test>cd c:\userts\adwait\desktop\destination
+The system cannot find the path specified.
+
+c:\Users\Adwait\Desktop\test>cd c:\users\adwait\desktop\destination
+
+c:\Users\Adwait\Desktop\destination>cd c:\users\Adwait\desktop
+
+c:\Users\Adwait\Desktop>rd /s destination
+destination, Are you sure (Y/N)? y
+
+c:\Users\Adwait\Desktop>cd c:\
+
+c:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\
+
+12/01/2016  09:54 PM    <DIR>          eSupport
+02/21/2017  08:54 AM    <DIR>          MAMP
+02/21/2017  11:07 AM    <DIR>          Program Files
+02/21/2017  08:52 AM    <DIR>          Program Files (x86)
+01/28/2017  08:30 AM    <DIR>          Users
+02/21/2017  08:28 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+               6 Dir(s)  195,881,484,288 bytes free
+
+c:\>cd d:\
+
+c:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is C24A-E83A
+
+ Directory of c:\
+
+12/01/2016  09:54 PM    <DIR>          eSupport
+02/21/2017  08:54 AM    <DIR>          MAMP
+02/21/2017  11:07 AM    <DIR>          Program Files
+02/21/2017  08:52 AM    <DIR>          Program Files (x86)
+01/28/2017  08:30 AM    <DIR>          Users
+02/21/2017  08:28 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+               6 Dir(s)  195,881,484,288 bytes free
+
+c:\>cd d
+The system cannot find the path specified.
+
+c:\>cd d:\
+
+c:\>cd D:\
+
+c:\>cd help
+The system cannot find the path specified.
+
+c:\>cd d:\
+
+c:\>cd D:\
+
+c:\>cd d:
+D:\
+
+c:\>
+c:\>windows
+'windows' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\>windows\system32
+'windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\>cd c:\windows\system32
+
+c:\Windows\System32>cd
+c:\Windows\System32
+
+c:\Windows\System32>cd..
+
+c:\Windows>d:
+
+D:\>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 304D-BFA8
+
+ Directory of D:\
+
+02/21/2017  02:20 PM    <DIR>          dojo
+11/07/2007  08:00 AM            17,734 eula.1028.txt
+11/07/2007  08:00 AM            17,734 eula.1031.txt
+11/07/2007  08:00 AM            10,134 eula.1033.txt
+11/07/2007  08:00 AM            17,734 eula.1036.txt
+11/07/2007  08:00 AM            17,734 eula.1040.txt
+11/07/2007  08:00 AM               118 eula.1041.txt
+11/07/2007  08:00 AM            17,734 eula.1042.txt
+11/07/2007  08:00 AM            17,734 eula.2052.txt
+11/07/2007  08:00 AM            17,734 eula.3082.txt
+11/07/2007  08:00 AM             1,110 globdata.ini
+11/07/2007  08:03 AM           562,688 install.exe
+11/07/2007  08:00 AM               843 install.ini
+11/07/2007  08:03 AM            76,304 install.res.1028.dll
+11/07/2007  08:03 AM            96,272 install.res.1031.dll
+11/07/2007  08:03 AM            91,152 install.res.1033.dll
+11/07/2007  08:03 AM            97,296 install.res.1036.dll
+11/07/2007  08:03 AM            95,248 install.res.1040.dll
+11/07/2007  08:03 AM            81,424 install.res.1041.dll
+11/07/2007  08:03 AM            79,888 install.res.1042.dll
+11/07/2007  08:03 AM            75,792 install.res.2052.dll
+11/07/2007  08:03 AM            96,272 install.res.3082.dll
+11/07/2007  08:00 AM             5,686 vcredist.bmp
+11/07/2007  08:09 AM         1,442,522 VC_RED.cab
+11/07/2007  08:12 AM           232,960 VC_RED.MSI
+              24 File(s)      3,169,847 bytes
+               1 Dir(s)  999,980,822,528 bytes free
+
+D:\>cd dojo
+
+D:\dojo>md WebFundamentals
+
+D:\dojo>md Python
+
+D:\dojo>md MEAN
+
+D:\dojo>md Ruby
+
+D:\dojo>md iOS
+
+D:\dojo>md netCore
+
+D:\dojo>cd webFundamentals
+
+D:\dojo\WebFundamentals>copy NUL about.txt
+        1 file(s) copied.
+
+D:\dojo\WebFundamentals>cd d:\dojo\Python
+
+d:\dojo\Python>copy NUL about.txt
+        1 file(s) copied.
+
+d:\dojo\Python>cd d:\dojo\MEAN
+
+d:\dojo\MEAN>copy NUL about.txt
+        1 file(s) copied.
+
+d:\dojo\MEAN>cd d:\dojo\Ruby
+
+d:\dojo\Ruby>copy NUL about.txt
+        1 file(s) copied.
+
+d:\dojo\Ruby>cd d:\dojo\iOS
+
+d:\dojo\iOS>copy NUL about.txt
+        1 file(s) copied.
+
+d:\dojo\iOS>cd d:\dojo\netCore
+
+d:\dojo\netCore>copy NUL about.txt
+        1 file(s) copied.
+
+d:\dojo\netCore>cd d:\dojo\netfundamentals
+The system cannot find the path specified.
+
+d:\dojo\netCore>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 304D-BFA8
+
+ Directory of d:\dojo\netCore
+
+02/21/2017  02:26 PM    <DIR>          .
+02/21/2017  02:26 PM    <DIR>          ..
+02/21/2017  02:26 PM                 0 about.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  999,980,818,432 bytes free
+
+d:\dojo\netCore>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 304D-BFA8
+
+ Directory of d:\dojo\netCore
+
+02/21/2017  02:26 PM    <DIR>          .
+02/21/2017  02:26 PM    <DIR>          ..
+02/21/2017  02:26 PM                 0 about.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  999,980,818,432 bytes free
+
+d:\dojo\netCore>cd d:\dojo
+
+d:\dojo>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 304D-BFA8
+
+ Directory of d:\dojo
+
+02/21/2017  02:25 PM    <DIR>          .
+02/21/2017  02:25 PM    <DIR>          ..
+02/21/2017  02:20 PM             5,131 cmdprompt.txt
+02/21/2017  11:10 AM    <DIR>          html
+02/21/2017  02:26 PM    <DIR>          iOS
+02/21/2017  02:25 PM    <DIR>          MEAN
+02/21/2017  02:26 PM    <DIR>          netCore
+02/21/2017  02:25 PM    <DIR>          Python
+02/21/2017  02:26 PM    <DIR>          Ruby
+02/21/2017  02:25 PM    <DIR>          WebFundamentals
+               1 File(s)          5,131 bytes
+               9 Dir(s)  999,980,818,432 bytes free
+
+d:\dojo>cd WebFundamentals
+
+d:\dojo\WebFundamentals>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 304D-BFA8
+
+ Directory of d:\dojo\WebFundamentals
+
+02/21/2017  02:25 PM    <DIR>          .
+02/21/2017  02:25 PM    <DIR>          ..
+02/21/2017  02:25 PM                 0 about.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  999,980,818,432 bytes free
+
+d:\dojo\WebFundamentals>md Git
+
+d:\dojo\WebFundamentals>md CSS
+
+d:\dojo\WebFundamentals>md Javascript
+
+d:\dojo\WebFundamentals>cd d:\dojo\Git
+The system cannot find the path specified.
+
+d:\dojo\WebFundamentals>cd d:\dojo\WebFundamentals\Git
+
+d:\dojo\WebFundamentals\Git>copy NUL about.txt
+        1 file(s) copied.
+
+d:\dojo\WebFundamentals\Git>cd d:\dojo\netfundamentals\CSS
+The system cannot find the path specified.
+
+d:\dojo\WebFundamentals\Git>cd d:\dojo\WebFundamentals\CSS
+
+d:\dojo\WebFundamentals\CSS>copy NUL about.txt
+        1 file(s) copied.
+
+d:\dojo\WebFundamentals\CSS>cd d:\dojo\WebFundamentals\Javascript
+
+d:\dojo\WebFundamentals\Javascript>copy NUL about.txt
+        1 file(s) copied.
+
+d:\dojo\WebFundamentals\Javascript>cd d:\dojo\html
+
+d:\dojo\html>copy NUL indentation.html
+        1 file(s) copied.
+
+d:\dojo\html>dir /b /s
+d:\dojo\html\firstone
+d:\dojo\html\indentation.html
+d:\dojo\html\firstone\fakeblog.html
+d:\dojo\html\firstone\hello_world.html
+d:\dojo\html\firstone\indentation.html
+d:\dojo\html\firstone\registrationform.html
+
+d:\dojo\html>\
